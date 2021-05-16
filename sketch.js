@@ -28,5 +28,6 @@ oxygenChhs3.addImage(oxygenChhs3Img);
 }
 
 function draw(){
+  background("red")
   drawSprites();
 }
