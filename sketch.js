@@ -17,17 +17,19 @@ oxygenChhs1 = createSprite(600, 400,150,150);
 oxygenChhs1.addImage(oxygenChhs1Img);
 
 // creating sprite image for oxygen available in chennai hospital no.2
-oxygenChhs2 = createSprite(600, 1100,150,150);
+oxygenChhs2 = createSprite(600, 1500,150,150);
 oxygenChhs2.addImage(oxygenChhs2Img);
 
 
 // creating sprite image for oxygen available in chennai hospital no.3
-oxygenChhs3 = createSprite(600, 1800,150,150);
+oxygenChhs3 = createSprite(600, 2100,150,150);
 oxygenChhs3.addImage(oxygenChhs3Img);
 
 }
 
 function draw(){
-  background("red")
+ background("red")
   drawSprites();
+ 
+ 
 }
